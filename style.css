@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ebeef1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card {
+    width: 70%;
+    max-width: 350px;
+    height: auto;
+    background: #ebeef1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -1px rgb(10,90,169,0.16),-10px -10px 10px -1px rgb(255,255,255,0.7);
+}
+.btn button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: inset 10px 10px 10px -1px rgb(10,90,169,0.16), inset -10px -10px 10px -1px rgb(255,255,255,0.7);
+
+}
